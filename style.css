@@ -1,0 +1,671 @@
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,900;1,400&family=Fraunces:wght@500;600;900&family=Lato:ital@0;1&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:wght@900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 18px;
+        font-family: 'Fraunces', serif;
+    }
+    /* header */
+    
+    header {
+        font-family: 'Fraunces', serif;
+        background: url(/images/desktop/image-header.jpg) no-repeat center center/cover;
+        height: 70vh;
+        color: #fff;
+        padding: 5px 0;
+    }
+    
+    .menu-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .btn {
+        display: none;
+    }
+    
+    #hamb {
+        display: none;
+    }
+    
+    .logo {
+        padding: 20px;
+        font-size: 1.4rem;
+        font-weight: 900;
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    a:hover {
+        color: rgb(241, 236, 236);
+    }
+    
+    #nav li {
+        list-style: none;
+    }
+    
+    .menu {
+        display: flex;
+        gap: 35px;
+        padding-right: 30px;
+        font-size: 1rem;
+        align-items: center;
+    }
+    
+    #nav button {
+        height: 35px;
+        width: 100px;
+        border-radius: 20px;
+        border: none;
+        background-color: #fff;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    
+    #nav button:hover {
+        background-color: rgb(216, 209, 209);
+    }
+    
+    .h2 {
+        display: flex;
+        justify-content: center;
+        padding: 45px 0;
+        letter-spacing: 10px;
+        font-weight: bold;
+    }
+    /* Seção flexbox ou grid */
+    
+    .ovo {
+        display: flex;
+        font-family: 'Fraunces', serif;
+    }
+    
+    .text-content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 120px;
+    }
+    
+    .text-content h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        margin-bottom: 25px;
+    }
+    
+    .text-content p {
+        font-size: 15px;
+        margin-bottom: 40px;
+        line-height: 25px;
+        color: #333;
+    }
+    
+    .text-content a {
+        color: black;
+        font-weight: 900;
+        font-size: 15px;
+    }
+    
+    .img-info {
+        width: 50%;
+    }
+    
+    .img-info img {
+        height: 400px;
+        width: 100%;
+    }
+    
+    .img-info2 {
+        width: 50%;
+    }
+    
+    .img-info2 img {
+        height: 400px;
+        width: 100%;
+        margin-top: -5px;
+    }
+    
+    .taca {
+        display: flex;
+    }
+    
+    .info {
+        display: flex;
+        margin-top: -5px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .cereja,
+    .laranja {
+        width: 50%;
+        position: relative;
+    }
+    
+    .cereja img,
+    .laranja img {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+    
+    .cereja h2,
+    .laranja h2 {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        display: flex;
+        font-size: 1.4rem;
+    }
+    
+    .cereja p,
+    .laranja p {
+        position: absolute;
+        top: 0;
+        display: flex;
+        line-height: 22px;
+        color: #333;
+        font-size: 15px;
+        top: 70%;
+        width: 50%;
+        left: 25%;
+    }
+    /* clients testemonials */
+    
+    .testemonials {
+        padding: 100px 0;
+    }
+    
+    .testemonials h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        letter-spacing: 5px;
+        margin-bottom: 60px;
+        color: #a5a1a1;
+        text-align: center;
+    }
+    
+    .clientsImgs {
+        display: flex;
+        text-align: center;
+    }
+    
+    .client img {
+        border-radius: 50%;
+        width: 70px;
+        margin-bottom: 40px;
+    }
+    
+    .client p {
+        margin-bottom: 50px;
+        font-size: 1rem;
+        padding: 0 50px;
+        font-size: 15px;
+        color: rgb(80, 80, 80);
+        line-height: 22px;
+        font-weight: 600;
+    }
+    
+    #btn {
+        border: none;
+        background: none;
+        font-size: 14px;
+        font-weight: 900;
+        margin-bottom: 4px;
+    }
+    
+    .client h3 {
+        font-size: 10px;
+        font-weight: 100;
+        color: #a5a1a1;
+    }
+    /* sessão de imagens */
+    
+    .images {
+        display: flex;
+    }
+    
+    image {
+        width: 100%;
+    }
+    
+    .image img {
+        width: 100%;
+    }
+    /* footer */
+    
+    footer {
+        background-color: #94d4bd;
+        margin-top: -5px;
+        padding: 40px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer h3 {
+        margin-bottom: 25px;
+        color: #375f50;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+    
+    .menu-footer {
+        display: flex;
+        gap: 30px;
+    }
+    
+    .menu-footer a {
+        color: #436e5f;
+        font-size: 15px;
+        margin-bottom: 70px;
+    }
+    
+    .menu-footer a:hover {
+        color: #2f4b40;
+    }
+    
+    .redes-sociais {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .redes-sociais img {
+        width: 15px;
+    }
+    /* responsividade */
+    
+    @media (max-width: 1236px) {
+        .cereja h2,
+        .laranja h2 {
+            position: absolute;
+            top: 60%;
+            left: 35%;
+            display: flex;
+            font-size: 1.4rem;
+        }
+        .cereja p,
+        .laranja p {
+            position: absolute;
+            top: 0;
+            display: flex;
+            line-height: 22px;
+            color: #333;
+            font-size: 15px;
+            top: 70%;
+            width: 50%;
+            left: 25%;
+        }
+    }
+    
+    @media (max-width: 1000px) {
+        .cereja p,
+        .laranja p {
+            position: absolute;
+            top: 0;
+            display: flex;
+            line-height: 22px;
+            color: #333;
+            font-size: 14px;
+            top: 70%;
+            width: 70%;
+            left: 16%;
+        }
+    }
+    
+    @media (max-width: 922px) {
+        .text-content {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 50px;
+        }
+    }
+    /* responsividade 850 pra baixo */
+    
+    @media (max-width: 810px) {
+        .cereja h2,
+        .laranja h2 {
+            position: absolute;
+            top: 60%;
+            left: 26%;
+            right: 0%;
+            display: flex;
+        }
+        .cereja p,
+        .laranja p {
+            position: absolute;
+            top: 0;
+            display: flex;
+            line-height: 22px;
+            color: #333;
+            font-size: 14px;
+            top: 70%;
+            width: 80%;
+            left: 10%;
+        }
+    }
+    
+    @media (max-width: 802px) {
+        .text-content {
+            padding: 0 50px;
+        }
+    }
+    
+    @media (max-width: 691px) {
+        .h2 {
+            font-size: 2rem;
+            padding: 80px 50%;
+        }
+        /* sessão flexbox ou grid */
+        .text-content {
+            width: 100%;
+            height: 60vh;
+            align-items: center;
+        }
+        .text-content h1 {
+            font-size: 2.7rem;
+            font-weight: 900;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .text-content p {
+            font-size: 25px;
+            margin-bottom: 50px;
+            line-height: 40px;
+            color: rgb(110, 110, 110);
+            text-align: center;
+            font-weight: 600;
+        }
+        .text-content a {
+            color: black;
+            font-weight: 900;
+            font-size: 25px;
+        }
+        .ovo {
+            -webkit-flex-direction: column-reverse;
+            flex-direction: column-reverse !important;
+        }
+        .taca {
+            flex-direction: column;
+        }
+        .img-info {
+            width: 100%;
+        }
+        .img-info img {
+            width: 100%;
+        }
+        .img-info2 {
+            width: 100%;
+        }
+        .img-info2 img {
+            width: 100%;
+        }
+        .info {
+            flex-direction: column;
+        }
+        .cereja,
+        .laranja {
+            width: 100%;
+            margin-bottom: -5px;
+        }
+        .cereja img,
+        .laranja img {
+            width: 100%;
+            height: 80vh;
+            position: relative;
+        }
+        .cereja h2,
+        .laranja h2 {
+            position: absolute;
+            top: 60%;
+            left: 22%;
+            right: 0%;
+            display: flex;
+            font-size: 3rem;
+        }
+        .cereja p,
+        .laranja p {
+            position: absolute;
+            top: 0;
+            display: flex;
+            line-height: 35px;
+            color: #333;
+            font-size: 1.6rem;
+            top: 70%;
+            left: 0;
+            padding: 0 10px;
+            width: 100%;
+            margin-top: 30px;
+            font-weight: 600;
+        }
+        /* testimonials */
+        .testemonials h1 {
+            font-size: 2rem;
+            margin-bottom: 120px;
+        }
+        .clientsImgs {
+            flex-direction: column;
+        }
+        .client {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .client img {
+            width: 150px;
+        }
+        .client h3 {
+            margin-bottom: 60px;
+            font-size: 1.4rem;
+        }
+        .client p {
+            width: 95%;
+            font-size: 1.5rem;
+            line-height: 40px;
+        }
+        #btn {
+            font-size: 1.6rem;
+        }
+        /* sessão de imagens */
+        .images {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .image img {
+            width: 100%;
+            margin-top: -5px;
+            height: 30vh;
+        }
+        /* footer */
+        footer {
+            height: 55vh;
+        }
+        footer h3 {
+            margin-bottom: 70px;
+            color: #375f50;
+            font-family: 'Barlow', sans-serif;
+            font-weight: 900;
+            font-size: 3rem;
+            margin-top: 50px;
+        }
+        .menu-footer {
+            display: flex;
+            gap: 25px;
+        }
+        .menu-footer a {
+            color: #436e5f;
+            font-size: 1.9rem;
+            margin-bottom: 120px;
+            font-weight: 600;
+        }
+        .menu-footer a:hover {
+            color: #2f4b40;
+        }
+        .redes-sociais {
+            display: flex;
+            gap: 40px;
+        }
+        .redes-sociais img {
+            width: 35px;
+        }
+    }
+    
+    @media (max-width: 558px) {
+        .cereja h2 {
+            left: 15%;
+        }
+    }
+    
+    @media (max-width: 524px) {
+        .h2 {
+            font-size: 1.2rem;
+        }
+        .cereja h2,
+        .laranja h2 {
+            position: absolute;
+            top: 60%;
+            left: 20%;
+            right: 0%;
+            display: flex;
+            font-size: 2.3rem;
+        }
+        .cereja p,
+        .laranja p {
+            position: absolute;
+            top: 0;
+            display: flex;
+            line-height: 35px;
+            color: #333;
+            font-size: 1.1rem;
+            top: 70%;
+            left: 0;
+            padding: 0 10px;
+            width: 100%;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+        .testemonials h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 1.4rem;
+            letter-spacing: 5px;
+            margin-bottom: 60px;
+            color: #a5a1a1;
+        }
+        .client img {
+            border-radius: 50%;
+            width: 120px;
+            margin-bottom: 40px;
+        }
+        .client p {
+            margin-bottom: 50px;
+            font-size: 1rem;
+            padding: 0 50px;
+            font-size: 15px;
+            color: rgb(80, 80, 80);
+            line-height: 22px;
+            font-weight: 600;
+        }
+        #btn {
+            border: none;
+            background: none;
+            font-size: 14px;
+            font-weight: 900;
+            margin-bottom: 4px;
+        }
+        .client h3 {
+            font-size: 10px;
+            font-weight: 100;
+            color: #a5a1a1;
+        }
+        /* footer */
+        footer {
+            height: 50vh;
+        }
+        footer h3 {
+            font-size: 1.9rem;
+        }
+        .menu-footer a {
+            font-size: 1.2rem;
+            margin-bottom: 90px;
+        }
+        .redes-sociais img {
+            width: 20px;
+        }
+    }
+    
+    @media (max-width: 478px) {
+        html,
+        body {
+            overflow-x: hidden;
+        }
+        .text-content h1 {
+            font-size: 1.7rem;
+            font-weight: 900;
+            margin-bottom: 30px;
+            text-align: center;
+            width: 150%;
+        }
+        .text-content p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            line-height: 40px;
+            color: rgb(110, 110, 110);
+            text-align: center;
+            font-weight: 600;
+            width: 110%;
+        }
+        .text-content a {
+            color: black;
+            font-weight: 900;
+            font-size: 1.2rem;
+        }
+        .cereja h2,
+        .laranja h2 {
+            text-align: center;
+        }
+    }
+    
+    @media (max-width: 404px) {
+        .cereja h2 {
+            left: 15%;
+        }
+    }
+    
+    @media (max-width: 386px) {
+        .cereja h2 {
+            left: 10%;
+        }
+    }
+    
+    @media (max-width: 297px) {
+        .testemonials h1 {
+            font-size: 0.8rem;
+            text-align: center;
+        }
+    }
+    
+    @media (max-width: 282px) {
+        .h2 {
+            font-size: 0.8rem;
+        }
+    }
