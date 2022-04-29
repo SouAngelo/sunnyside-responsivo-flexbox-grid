@@ -1,6 +1,6 @@
 ## 🔗 Sobre o Projeto
 
-https://landingpage-souangelo.netlify.app/
+https://sunnyside-paginaresponsiva.netlify.app/
 
 <p>
 Landing Page é uma página de vendas de um produto específico.
