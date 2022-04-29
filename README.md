@@ -9,18 +9,23 @@ Este site tem como objetivo capturar leeds para uma empresa de ensino fictícia.
 
 ## 📱 Layout para Celular
 <br>
-<img src="./assets/images/Screenshot_1.png"/>
-<img src="./assets/images/Screenshot_2.png"/>
-<img src="./assets/images/Screenshot_3.png"/>
-<img src="./assets/images/Screenshot_4.png"/>
+<img src="./imagens-page/mobile1.png"/>
+<img src="./imagens-page/mobile2.png"/>
+<img src="./imagens-page/mobile3.png"/>
+<img src="./imagens-page/mobile4.png"/>
+<img src="./imagens-page/mobile5.png"/>
+<img src="./imagens-page/mobile6.png"/>
+<img src="./imagens-page/mobile7.png"/>
 <br>
 
 ## 💻 Layout para Web
 <br>
 
-<video src='./videos-page/video1.wmv>
-<img src="./assets/images/desktop2.png"/>
-
+<img src="./imagens-page/desktop1.png"/>
+<img src="./imagens-page/desktop2.png"/>
+<img src="./imagens-page/desktop3.png"/>
+<img src="./imagens-page/desktop4.png"/>
+<img src="./imagens-page/desktop5.png"/>
 <br>
 
 ## 🧑‍💻 Tecnologias utilizadas
@@ -34,6 +39,8 @@ Este site tem como objetivo capturar leeds para uma empresa de ensino fictícia.
 ## Implantação em produção
 
 - Web de front-end: Netlify
+- Flexbox
+- Grid template
 <br>
 
 ## 🧑‍💻 Autor
